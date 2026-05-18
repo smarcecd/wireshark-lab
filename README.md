@@ -83,7 +83,7 @@ Analyze an HTTP POST request to understand why HTTPS is essential.
 
 
 
-## Step 7 - Follow a Full TCP Stream
+## 🔁 Step 7 - Follow a Full TCP Stream
 
 Reconstruct an entire HTTP conversation between client and server.
 
@@ -109,7 +109,7 @@ Preserve your work for later analysis or portfolio use.
 
 
 
-## Step  9 - Verify Your Skills
+## 📝 Step  9 - Verify Your Skills
 
 Self Check: Confirm you can perform each core Wireshark task without guidance.
 
