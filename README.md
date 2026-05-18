@@ -2,7 +2,7 @@
 
 # Wireshark Fundamentals Lab
 
---
+
 
 ## 🛠️ Step 1 — Install Wireshark
 
@@ -12,7 +12,7 @@ Set up the packet analyzer you’ll use throughout the lab.
 - **Download** the installer for your operating system (Windows, macOS, or Linux)
 - **Install** using default settings — no license, trial, or account required
 
---
+
 
 ## 🚀 Step 2 —  Run Your First Packet Capture
 
