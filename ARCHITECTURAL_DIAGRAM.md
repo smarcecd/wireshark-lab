@@ -9,13 +9,14 @@ This document illustrates the flow of how Wireshark captures and displays networ
 ```mermaid
 flowchart TD
 
-A[User Device<br>(Laptop/PC)] --> B[Network Interface<br>(Ethernet / Wi‑Fi)]
+A["User Device\n(Laptop/PC)"] --> B["Network Interface\n(Ethernet / Wi‑Fi)"]
 
-B -->|Live Packet Stream| C[Wireshark Capture Engine]
+B -->|Live Packet Stream| C["Wireshark Capture Engine"]
 
-C --> D[Packet List Pane<br>(Top Panel)]
-C --> E[Packet Details Pane<br>(Middle Panel)]
-C --> F[Packet Bytes Pane<br>(Bottom Panel)]
+C --> D["Packet List Pane\n(Top Panel)"]
+C --> E["Packet Details Pane\n(Middle Panel)"]
+C --> F["Packet Bytes Pane\n(Bottom Panel)"]
+
 ```
 
 
