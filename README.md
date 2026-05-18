@@ -25,7 +25,7 @@ Get familiar with the Wireshark interface and live traffic view.
 - Open a browser and visit any website to generate traffic
 - After ~30 seconds, click the red **Stop** button to end the capture
 
---
+
 
 ## 🔍 Step 3 - Use Essential Display Filters
 
@@ -36,7 +36,7 @@ Learn to isolate specific traffic types using Wireshark’s filter bar.
 - Observe how the packet list updates instantly
 - Practice filtering by protocol, IP, and port
 
---
+
 
 ## 📝  Step 4 - Capture a DNS Lookup
 
@@ -51,9 +51,9 @@ Trigger a **DNS query manually** and analyze the request and response.
 - Locate the Standard query response packet
 - Expand the DNS response to view the returned IP address
 
---
 
-## 🔗 Srep 5 - Observe the TCP Three Way Handshake
+
+## 🔗 Step 5 - Observe the TCP Three Way Handshake
 
 Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connection.
 
@@ -67,7 +67,7 @@ Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connect
     - SYN, ACK — server acknowledges
     - ACK — connection established
 
---
+
 
 ## 🔍 Step 6 - Identify Cleartext Credentials (HTTP)
 
@@ -81,7 +81,7 @@ Analyze an HTTP POST request to understand why HTTPS is essential.
 - Select the POST packet and expand HTML Form URL Encoded
 - Observe the username and password in plaintext
 
---
+
 
 ## Step 7 - Follow a Full TCP Stream
 
@@ -94,9 +94,9 @@ Reconstruct an entire HTTP conversation between client and server.
     - Red = client request
     - Blue = server response
 
---
 
-## Step  8 - Save and Export Captures
+
+## 📘 Step  8 - Save and Export Captures
 
 Preserve your work for later analysis or portfolio use.
 
@@ -107,7 +107,7 @@ Preserve your work for later analysis or portfolio use.
   Code
   tshark -i eth0 -w capture.pcapng -c 1000
 
---
+
 
 ## Step  9 - Verify Your Skills
 
@@ -119,5 +119,5 @@ Self Check: Confirm you can perform each core Wireshark task without guidance.
 - Follow a TCP stream and read the full HTTP exchange
 - Save, close, and reopen a capture file successfully
 
---
+
 
