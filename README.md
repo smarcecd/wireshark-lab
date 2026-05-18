@@ -56,65 +56,68 @@ Trigger a **DNS query manually** and analyze the request and response.
 ## 🔗 Srep 5 - Observe the TCP Three Way Handshake
 
 Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connection.
-•	Start a **new capture**
-•	Browse to **http://example.com** (HTTP makes the handshake easier to see)
-•	**Stop** the capture
-•	Run **nslookup example.com** to get the server IP
-•	Apply filter: **tcp and ip.addr == <IP>**
-•	Find the **three handshake** packets:
-  o	SYN — client initiates connection
-  o	SYN, ACK — server acknowledges
-  o	ACK — connection established
+
+- Start a **new capture**
+- Browse to **http://example.com** (HTTP makes the handshake easier to see)
+- **Stop** the capture
+- Run **nslookup example.com** to get the server IP
+- Apply filter: **tcp and ip.addr == <IP>**
+- Find the **three handshake** packets:
+    - SYN — client initiates connection
+    - SYN, ACK — server acknowledges
+    - ACK — connection established
 
 --
 
-6
-Identify Cleartext Credentials (HTTP)
-Warning
+## 🔍 Step 6 - Identify Cleartext Credentials (HTTP)
+
 Analyze an HTTP POST request to understand why HTTPS is essential.
-•	Only perform this on systems you own or have permission to test
-•	Start a capture
-•	Submit a login form over HTTP (not HTTPS) using test credentials
-•	Stop the capture
-•	Apply filter: http.request.method == POST
-•	Select the POST packet and expand HTML Form URL Encoded
-•	Observe the username and password in plaintext
+
+- Only perform this on systems you own or have permission to test
+- Start a capture
+- Submit a login form over HTTP (not HTTPS) using test credentials
+- Stop the capture
+- Apply filter: http.request.method == POST
+- Select the POST packet and expand HTML Form URL Encoded
+- Observe the username and password in plaintext
 
 --
 
-7
-Follow a Full TCP Stream
+## Step 7 - Follow a Full TCP Stream
+
 Reconstruct an entire HTTP conversation between client and server.
-•	Capture traffic while visiting an HTTP site
-•	Select any HTTP packet
-•	Right click → Follow → TCP Stream
-•	Review the reassembled conversation:
-o	Red = client request
-o	Blue = server response
+
+- Capture traffic while visiting an HTTP site
+- Select any HTTP packet
+- Right click → Follow → TCP Stream
+- Review the reassembled conversation:
+    - Red = client request
+    - Blue = server response
 
 --
 
-8
-Save and Export Captures
+## Step  8 - Save and Export Captures
+
 Preserve your work for later analysis or portfolio use.
-•	Save full capture: File → Save As → .pcapng
-•	Export only filtered packets: File → Export Specified Packets → Displayed
-•	Reopen captures anytime: File → Open
-•	Command line capture (tshark):
-Code
-tshark -i eth0 -w capture.pcapng -c 1000
+
+- Save full capture: File → Save As → .pcapng
+- Export only filtered packets: File → Export Specified Packets → Displayed
+- Reopen captures anytime: File → Open
+- Command line capture (tshark):
+  Code
+  tshark -i eth0 -w capture.pcapng -c 1000
 
 --
 
-9
-Verify Your Skills
-Self Check
-Confirm you can perform each core Wireshark task without guidance.
-•	Capture and filter DNS traffic; match query/response IDs
-•	Identify a TCP three way handshake and explain each flag
-•	Apply filters from memory: protocol, IP, port
-•	Follow a TCP stream and read the full HTTP exchange
-•	Save, close, and reopen a capture file successfully
+## Step  9 - Verify Your Skills
+
+Self Check: Confirm you can perform each core Wireshark task without guidance.
+
+- Capture and filter DNS traffic; match query/response IDs
+- Identify a TCP three way handshake and explain each flag
+- Apply filters from memory: protocol, IP, port
+- Follow a TCP stream and read the full HTTP exchange
+- Save, close, and reopen a capture file successfully
 
 --
 
