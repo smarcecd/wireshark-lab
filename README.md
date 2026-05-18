@@ -7,45 +7,49 @@
 ## 🛠️ Step 1 — Install Wireshark
 
 Set up the packet analyzer you’ll use throughout the lab.
-•	Go to **wireshark.org/download.html**
-•	**Download** the installer for your operating system (Windows, macOS, or Linux)
-•	**Install** using default settings — no license, trial, or account required
+
+- Go to **wireshark.org/download.html**
+- **Download** the installer for your operating system (Windows, macOS, or Linux)
+- **Install** using default settings — no license, trial, or account required
 
 --
 
 ## 🚀 Step 2 —  Run Your First Packet Capture
 
 Get familiar with the Wireshark interface and live traffic view.
-•	**Launch** Wireshark
-•	On the welcome screen, review the list of **network interfaces**
-•	Double click the interface with **the most activity** (Ethernet or Wi Fi)
-•	Watch packets populate in **real time**
-•	Open a browser and visit any website to generate traffic
-•	After ~30 seconds, click the red **Stop** button to end the capture
+
+- **Launch** Wireshark
+- On the welcome screen, review the list of **network interfaces**
+- Double click the interface with **the most activity** (Ethernet or Wi Fi)
+- Watch packets populate in **real time**
+- Open a browser and visit any website to generate traffic
+- After ~30 seconds, click the red **Stop** button to end the capture
 
 --
 
 ## 🔍 Step 3 - Use Essential Display Filters
 
 Learn to isolate specific traffic types using Wireshark’s filter bar.
-•	Type a **filter** (e.g., dns, tcp, icmp) into the filter bar
-•	Press **Enter** to apply it
-•	Observe how the packet list updates instantly
-•	Practice filtering by protocol, IP, and port
+
+- Type a **filter** (e.g., dns, tcp, icmp) into the filter bar
+- Press **Enter** to apply it
+- Observe how the packet list updates instantly
+- Practice filtering by protocol, IP, and port
 
 --
 
 ## 📝  Step 4 - Capture a DNS Lookup
-Recommended
+
 Trigger a **DNS query manually** and analyze the request and response.
-•	Start a capture on your active interface
-•	Open a terminal, on Windows: **Command Prompt**
-•	Run: **nslookup google.com**
-•	**Stop** the capture
-•	Apply filter: **dns**
-•	Locate the Standard query A google.com packet
-•	Locate the Standard query response packet
-•	Expand the DNS response to view the returned IP address
+
+- Start a capture on your active interface
+- Open a terminal, on Windows: **Command Prompt**
+- Run: **nslookup google.com**
+- **Stop** the capture
+- Apply filter: **dns**
+- Locate the Standard query A google.com packet
+- Locate the Standard query response packet
+- Expand the DNS response to view the returned IP address
 
 --
 
