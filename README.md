@@ -1,4 +1,3 @@
-# Wireshark-Lab
 
 # Wireshark Fundamentals Lab
 
@@ -43,7 +42,7 @@ Learn to isolate specific traffic types using Wireshark’s filter bar.
 Trigger a **DNS query manually** and analyze the request and response.
 
 - Start a capture on your active interface
-- Open a terminal, on Windows: **Command Prompt**
+- Open a terminal, on Windows search for: **Command Prompt**
 - Run: **nslookup google.com**
 - **Stop** the capture
 - Apply filter: **dns**
@@ -58,7 +57,7 @@ Trigger a **DNS query manually** and analyze the request and response.
 Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connection.
 
 - Start a **new capture**
-- Browse to **[http://zero.webappsecurity.com](http://zero.webappsecurity.com/login.html)** (HTTP makes the handshake easier to see)
+- Browse to **http://zero.webappsecurity.com/login.html** (HTTP makes the handshake easier to see)
 - **Stop** the capture
 - Run **nslookup example.com** to get the server IP
 - Apply filter: **tcp and ip.addr == <IP>**
