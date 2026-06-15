@@ -80,6 +80,10 @@ Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connect
 
 ## 🔍 Step 6 - Identify Cleartext Credentials (HTTP)
 
+Watch me doing Step 6:
+
+[![wireshark4](https://github.com/user-attachments/assets/70e7e8c2-7eb2-4e33-8dc8-d7813f23df08)](https://www.loom.com/share/17a84c64dfc946cb8b72be698222bbb8)
+
 Analyze an HTTP POST request to understand why HTTPS is essential.
 
 - Only perform this on systems you own or have permission to test
