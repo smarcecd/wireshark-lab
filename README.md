@@ -5,7 +5,7 @@
 
 ## 🛠️ Step 1 — Install Wireshark
 
-Watch me doing Step 1-3:
+Watch me doing Steps 1-3:
 [![wireshark1](https://github.com/user-attachments/assets/54e9c46e-435c-40e9-8083-f0a7ad90ea8a)](https://www.loom.com/share/b13057aa38544f2b940c8c2e0d9d6ba6)
 
 Set up the packet analyzer you’ll use throughout the lab.
@@ -41,6 +41,9 @@ Learn to isolate specific traffic types using Wireshark’s filter bar.
 
 
 ## 📝  Step 4 - Capture a DNS Lookup
+
+Watch me doing Step 4: 
+[![wireshark2](https://github.com/user-attachments/assets/9e1a789c-55f2-4223-98b3-d04e53a07650)](https://www.loom.com/share/deb3da90f1504c6e8cb7c49ccb819328)
 
 Trigger a **DNS query manually** and analyze the request and response.
 
