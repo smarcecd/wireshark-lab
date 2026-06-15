@@ -98,6 +98,9 @@ Analyze an HTTP POST request to understand why HTTPS is essential.
 
 ## 🔁 Step 7 - Follow a Full TCP Stream
 
+Watch me doing Step 7 and 8:
+[![wireshark5](https://github.com/user-attachments/assets/15a0fcee-5439-4e6f-8fbe-f089ae87fa36)](https://www.loom.com/share/11948434c5a84023918f8dd04d20ec78)
+
 Reconstruct an entire HTTP conversation between client and server.
 
 - Capture traffic while visiting an HTTP site
