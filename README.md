@@ -58,7 +58,7 @@ Trigger a **DNS query manually** and analyze the request and response.
 Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connection.
 
 - Start a **new capture**
-- Browse to **http://example.com** (HTTP makes the handshake easier to see)
+- Browse to **[http://zero.webappsecurity.com](http://zero.webappsecurity.com/login.html)** (HTTP makes the handshake easier to see)
 - **Stop** the capture
 - Run **nslookup example.com** to get the server IP
 - Apply filter: **tcp and ip.addr == <IP>**
