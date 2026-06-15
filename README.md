@@ -60,6 +60,10 @@ Trigger a **DNS query manually** and analyze the request and response.
 
 ## 🔗 Step 5 - Observe the TCP Three Way Handshake
 
+Watch me doing Step 5:
+
+[![wireshark3](https://github.com/user-attachments/assets/a9a153cb-214c-4844-8285-8cef1fa54bff)](https://www.loom.com/share/b3666bc351f844a2a50f5bc2ae7005ec)
+
 Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connection.
 
 - Start a **new capture**
