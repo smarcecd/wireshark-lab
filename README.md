@@ -5,6 +5,9 @@
 
 ## 🛠️ Step 1 — Install Wireshark
 
+Watch me doing Step 1-3:
+[![wireshark1](https://github.com/user-attachments/assets/54e9c46e-435c-40e9-8083-f0a7ad90ea8a)](https://www.loom.com/share/b13057aa38544f2b940c8c2e0d9d6ba6)
+
 Set up the packet analyzer you’ll use throughout the lab.
 
 - Go to **wireshark.org/download.html**
