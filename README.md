@@ -59,8 +59,8 @@ Identify the **SYN → SYN ACK → ACK** sequence that establishes a TCP connect
 - Start a **new capture**
 - Browse to **http://zero.webappsecurity.com/login.html** (HTTP makes the handshake easier to see)
 - **Stop** the capture
-- Run **nslookup example.com** to get the server IP
-- Apply filter: **tcp and ip.addr == <IP>**
+- Run **nslookup zero.webappsecurity.com** to get the server IP
+- Apply filter: **tcp and ip.addr == <IP>** (In my case was: tcp and ip.addr == 54.82.22.214 )
 - Find the **three handshake** packets:
     - SYN — client initiates connection
     - SYN, ACK — server acknowledges
